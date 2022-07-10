@@ -1,0 +1,134 @@
+body {
+    font-family: Microsoft JhengHei, Apple LiGothic;
+    font-size: $primary-font-size;
+    line-height: $primary-line-height;
+}
+
+.container-1200 {
+    max-width: $primary-max-width;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 95px;
+    border-bottom: 2px solid #000000;
+    // 因有border-bottom，padding-bottom減2
+    padding: 40px 0px calc(24px - 2px) 0px;
+}
+
+.logo {
+    img {
+        // 因有border-bottom，padding-top減2
+        padding: calc(48px - 2px) 0px 48px 0px;
+    }
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
+    border-bottom: 1px solid #000000;
+    // 因有border-bottom，padding-bottom減1
+    padding-bottom: calc(8px - 1px);
+    // 因border-bottom多加0.333，margin-bottom減1.333
+    margin-bottom: calc(16px - 1.333px);
+
+    span {
+        color: #A00404;
+        font-size: 24px;
+        line-height: 36px;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+}
+
+.skills {
+    background: #415165;
+}
+
+.container-996 {
+    color: #fff;
+    max-width: 996px;
+    margin: 0 auto;
+    padding: 24px 0px 40px 0px;
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 1px solid #ffffff;
+        // 因有border-bottom，padding-bottom減1
+        padding-bottom: calc(8px - 1px);
+        // 因border-bottom多加0.333，margin-bottom減1.333
+        margin-bottom: calc(40px - 0.333px);
+
+        span {
+            color: #fff;
+        }
+    }
+
+    .list-skills {
+        max-width: 234px;
+        margin: 0 auto;
+        border-left: 1px solid #96A9C4;
+        // 因有border-left，減1.333
+        padding-left: calc(24px - 1.333px);
+    }
+}
+
+.experience {
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: 24px;
+
+    li {
+        font-weight: bold;
+    }
+
+    .font-size20 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+footer {
+    background: #415165;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 0px 40px 0px;
+
+    h2 {
+        border-bottom: 1px solid #ffffff;
+        // 因有border-bottom，padding-bottom減1
+        padding-bottom: calc(8px - 1px);
+        // 因border-bottom多加0.333，margin-bottom多減0.333
+        margin-bottom: calc(24px - 0.333px);
+
+    }
+
+    a {
+        display: inline-block;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}

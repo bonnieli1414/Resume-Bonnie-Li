@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Configuration */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: block;
+}
+
+/* 全站設定 */
+body {
+  font-family: Microsoft JhengHei, Apple LiGothic;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  border-bottom: 2px solid #000000;
+  padding: 40px 0px 22px 0px;
+}
+
+.logo img {
+  padding: 46px 0px 48px 0px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 48px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 7px;
+  margin-bottom: 14.667px;
+}
+h2 span {
+  color: #A00404;
+  font-size: 24px;
+  line-height: 36px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.skills {
+  background: #415165;
+}
+
+.container-996 {
+  color: #fff;
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 24px 0px 40px 0px;
+}
+.container-996 h2 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 7px;
+  margin-bottom: 39.667px;
+}
+.container-996 h2 span {
+  color: #fff;
+}
+.container-996 .list-skills {
+  max-width: 234px;
+  margin: 0 auto;
+  border-left: 1px solid #96A9C4;
+  padding-left: 22.667px;
+}
+
+.experience {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.experience li {
+  font-weight: bold;
+}
+.experience .font-size20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer {
+  background: #415165;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 0px 40px 0px;
+}
+footer h2 {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 7px;
+  margin-bottom: 23.667px;
+}
+footer a {
+  display: inline-block;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}/*# sourceMappingURL=all.css.map */
