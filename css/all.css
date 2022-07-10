@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* CSS reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* CSS reset */ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -89,7 +88,7 @@ h1 {
 }
 
 .logo img {
-  padding: 46px 0px 48px 0px;
+  padding: 48px 0px 48px 0px;
 }
 
 h2 {
@@ -98,7 +97,7 @@ h2 {
   line-height: 48px;
   border-bottom: 1px solid #000000;
   padding-bottom: 7px;
-  margin-bottom: 14.667px;
+  margin-bottom: 15.667px;
 }
 h2 span {
   color: #A00404;
@@ -143,7 +142,7 @@ h2 span {
 .experience li {
   font-weight: bold;
 }
-.experience .font-size20 {
+.experience p {
   font-size: 20px;
   line-height: 30px;
 }

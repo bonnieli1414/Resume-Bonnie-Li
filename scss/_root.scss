@@ -20,7 +20,7 @@ h1 {
 .logo {
     img {
         // 因有border-bottom，padding-top減2
-        padding: calc(48px - 2px) 0px 48px 0px;
+        padding: 48px 0px 48px 0px;
     }
 }
 
@@ -31,8 +31,8 @@ h2 {
     border-bottom: 1px solid #000000;
     // 因有border-bottom，padding-bottom減1
     padding-bottom: calc(8px - 1px);
-    // 因border-bottom多加0.333，margin-bottom減1.333
-    margin-bottom: calc(16px - 1.333px);
+    // 因border-bottom多加0.333，margin-bottom減0.333
+    margin-bottom: calc(16px - 0.333px);
 
     span {
         color: #A00404;
@@ -59,7 +59,7 @@ h2 {
         border-bottom: 1px solid #ffffff;
         // 因有border-bottom，padding-bottom減1
         padding-bottom: calc(8px - 1px);
-        // 因border-bottom多加0.333，margin-bottom減1.333
+        // 因border-bottom多加0.333，margin-bottom減0.333
         margin-bottom: calc(40px - 0.333px);
 
         span {
@@ -85,7 +85,7 @@ h2 {
         font-weight: bold;
     }
 
-    .font-size20 {
+    p {
         font-size: 20px;
         line-height: 30px;
     }
@@ -101,7 +101,7 @@ footer {
         border-bottom: 1px solid #ffffff;
         // 因有border-bottom，padding-bottom減1
         padding-bottom: calc(8px - 1px);
-        // 因border-bottom多加0.333，margin-bottom多減0.333
+        // 因border-bottom多加0.333，margin-bottom減0.333
         margin-bottom: calc(24px - 0.333px);
 
     }
