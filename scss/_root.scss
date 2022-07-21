@@ -106,10 +106,21 @@ footer {
 
     }
 
+    .d-flex {
+        display: flex;
+        justify-content: center;
+    }
+
     a {
-        display: inline-block;
         padding-right: 12px;
         padding-left: 12px;
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            font-size: 2rem;
+            color: red;
+        }
     }
 }
 

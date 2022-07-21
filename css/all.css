@@ -158,10 +158,19 @@ footer h2 {
   padding-bottom: 7px;
   margin-bottom: 23.667px;
 }
+footer .d-flex {
+  display: flex;
+  justify-content: center;
+}
 footer a {
-  display: inline-block;
   padding-right: 12px;
   padding-left: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  font-size: 2rem;
+  color: red;
 }
 
 .mb-16 {
